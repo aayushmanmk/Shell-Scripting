@@ -7,8 +7,8 @@ Here is an example of printing numbers from 1 - 10 :
 x=1
 while [ $x -le 10 ]
 do
-echo "$x"
-x=$(( $x + 1 ))
+  echo "$x"
+  x=$(( $x + 1 ))
 done
 ```
 
